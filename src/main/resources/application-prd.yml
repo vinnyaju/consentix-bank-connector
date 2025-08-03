@@ -1,6 +1,6 @@
 spring:
   application:
-    name: consentix-bank-connector
+    name: consentix-bank-connector-dcr
 
   liquibase:
     drop-first: false
