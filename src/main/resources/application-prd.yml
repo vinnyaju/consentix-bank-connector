@@ -1,5 +1,9 @@
 spring:
   application:
     name: consentix-bank-connector
+
+  liquibase:
+    drop-first: false
+
 server:
   port: 8080

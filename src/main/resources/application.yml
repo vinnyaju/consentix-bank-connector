@@ -1,3 +1,8 @@
 spring:
   application:
     name: consentix-bank-connector
+
+  liquibase:
+    enabled: true
+    change-log: classpath:/db/changelog/db.changelog-master.yaml
+    drop-first: false	

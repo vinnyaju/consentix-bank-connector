@@ -68,6 +68,11 @@
 		  <version>3.4.2</version>
 		  <type>maven-plugin</type>
 		</dependency>
+		<!-- Gerenciador da evolução do banco de dados SQL. -->
+		<dependency>
+		  <groupId>org.liquibase</groupId>
+		  <artifactId>liquibase-core</artifactId>
+		</dependency>
 		
 	</dependencies>
 
